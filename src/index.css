@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{display: none;}
+
+.bookbox::-webkit-scrollbar{
+  display: none;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.title-container{
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.title-container-h1{
+  font-weight: bold;
+}
